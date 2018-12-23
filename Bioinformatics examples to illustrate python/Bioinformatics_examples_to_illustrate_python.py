@@ -86,4 +86,5 @@ for i in timings:
 #0.3684054868654012
 #3.063250655954697e-05
 
-#clearly the built in function is the fastest
+
+#clearly the built in function is the fastest, this is because it is implemented in C behind the scences
