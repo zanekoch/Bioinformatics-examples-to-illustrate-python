@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37f38755-02eb-49d9-8683-19886f7b1d51</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Bioinformatics_examples_to_illustrate_python.py</StartupFile>
+    <StartupFile>countingLettersInDNAString.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Bioinformatics_examples_to_illustrate_python.py" />
+    <Compile Include="computingFrequencies.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="countingLettersInDNAString.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
